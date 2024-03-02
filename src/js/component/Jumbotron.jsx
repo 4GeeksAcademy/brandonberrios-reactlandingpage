@@ -10,8 +10,8 @@ export function Jumbotron (){
                   <button className="btn btn-primary btn-lg" type="button">Call to Action!</button>
               </div>
           </div>
-      )
-  }
+      );
+  };
 
   //ReactDOM.render(<Jumbotron />, document.querySelector("#app"));
 

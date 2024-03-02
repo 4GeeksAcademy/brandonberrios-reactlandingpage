@@ -29,4 +29,13 @@ export function NavBar () {
       );
   };
 
+  export function Logo (){
+    return (
+        <a className="navbar-brand" href="#">
+            Bootstrap
+        </a>
+    );
+
+  }
+
   //ReactDOM.render(<NavBar />, document.querySelector("#app"));

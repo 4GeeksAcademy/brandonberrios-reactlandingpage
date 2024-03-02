@@ -5,6 +5,7 @@ import { NavBar } from "./NavBar";
 import { Jumbotron } from "./Jumbotron";
 import { Card } from "./Card";
 import { Container } from "./Container";
+import { Footer } from "./Footer";
 
 //create your first component
 
@@ -13,15 +14,19 @@ const Home = () => {
   return (
     <div>
       <NavBar />
-      <Container>
-        <row>
-          <col>
-            <Jumbotron />
-          </col>
-        </row>
-        <Card />
-      </Container>
+      <div>
+        <Jumbotron />
+        <div className="row g-3">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+    </div>
+      <Footer /> 
+     
+      
     </div>
   );
-}
+};
 export default Home;
